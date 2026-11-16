@@ -1,0 +1,25 @@
+# Data never goes to GitHub (Kaggle licence; Bronze holds raw identifiers)
+raw/
+data/
+outputs/
+*.csv
+*.parquet
+
+# Secrets and local environment
+.env
+*.pem
+*.key
+
+# Report screenshots (unmasked originals) and generated documents
+screenshots/
+*.webp
+*.docx
+*.pdf
+
+# Python / Jupyter / OS
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
