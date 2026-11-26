@@ -1,7 +1,5 @@
 # SecondLook – Data Warehouse & Polyglot Persistence
 
-Cloud Native Data Engineering, Assignment 3 · University of Chicago
-
 SecondLook finds never-sold and slow-moving H&M articles and the customers most likely to buy them. This repo extends the Assignment 1 architecture and the Assignment 2 relational model with live weather data from the Open-Meteo API, a Medallion pipeline, an SCD Type 2 star schema on AWS RDS MySQL, and a Neo4j property graph for relationship-based targeting.
 
 ## Architecture
